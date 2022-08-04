@@ -31,6 +31,8 @@ public class GitSoftTest {
 
     @Test
     void findJUnit5() {
+        //- Откройте страницу Selenide в Github
+        open("/selenide/selenide");
         //- Перейдите в раздел Wiki проекта
         $("#wiki-tab").click();
         //- Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions
